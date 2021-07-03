@@ -1,0 +1,19 @@
+.chats {
+  margin-top: 3.6rem;
+}
+
+.chatArea {
+  height: 90vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chatArea::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chatArea {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

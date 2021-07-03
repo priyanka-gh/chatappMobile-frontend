@@ -1,0 +1,46 @@
+.Bar {
+  background-color: rgb(77, 165, 158);
+  width: 100%;
+  max-height: 3.5rem;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  position: fixed;
+}
+.barImg {
+  height: 2rem;
+  margin: 0.8rem 0.5rem;
+  border-radius: 50%;
+}
+
+.contact {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+}
+
+span {
+  font-size: 11px;
+  color: white;
+}
+
+.icon {
+  color: white;
+  margin: 1rem 0.5rem;
+}
+.iconattach {
+  transform: rotate(135deg);
+}
+.barIcons {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+}
+/* 
+
+
+
+
+
+*/

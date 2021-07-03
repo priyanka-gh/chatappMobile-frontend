@@ -1,0 +1,68 @@
+.footer {
+  position: fixed;
+  bottom: 2%;
+  margin-left: 1rem;
+}
+
+.textF {
+  background-color: white;
+  outline: none;
+  border-bottom: none;
+  border: none;
+  height: 2.5rem;
+  border-radius: 20px;
+  padding-left: 1rem;
+  width: 77vw;
+}
+
+.MuiInput-formControl {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+}
+
+.smiley {
+  color: rgb(197, 193, 193);
+  margin-left: 0.5rem;
+}
+.MuiInput-underline::after {
+  display: none;
+}
+.MuiInput-underline:before {
+  display: none;
+}
+.sendBtn {
+  position: fixed;
+  height: 2.5rem;
+  right: 1%;
+  bottom: 2%;
+  background-color: rgb(77, 165, 158);
+  border-radius: 100%;
+  padding: 0.4rem 0.8rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.iconSend {
+  color: white;
+}
+.sendBtn > .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .textF {
+    width: 72vw;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 380px) {
+  .textF {
+    width: 75vw;
+  }
+
+  @media screen and (min-width: 700px) {
+    .textF {
+      width: 100vw;
+    }
+  }
+}
