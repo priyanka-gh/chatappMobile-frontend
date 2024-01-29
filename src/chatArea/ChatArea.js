@@ -6,7 +6,7 @@ import Messages from '../Messages/Messages'
 import queryString from 'query-string'
 import io from 'socket.io-client'
 let socket;
-const ENDPOINT='https://mobilechatapp-backend.herokuapp.com';
+const ENDPOINT='https://chatapp-5plb.onrender.com/';
 const ChatArea = ({location}) => {
     const messagesperm=['abc','def','ghi','jkl','mno','pqr','stu','vwx','yz','my','name','is','priyanka','ghansela','lmao','hhehe','hi','PAYAL','abc'];
 
